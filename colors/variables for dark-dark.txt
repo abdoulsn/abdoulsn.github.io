@@ -10,10 +10,10 @@ $primary-color: #06A763;
 $accent-color: #06A763;
 
 
-$primary-color-light: lighten($primary-color, 7%);
+$primary-color-light: lighten($primary-color, 5%);
 $primary-color-dark: darken($primary-color, 12%);
 
-$accent-color-light: lighten($accent-color, 7%);
+$accent-color-light: lighten($accent-color, 5%);
 $accent-color-dark: darken($accent-color, 12%);
 $body-color: #33373a;
 $body-color-dark: darken($body-color, 10%);
