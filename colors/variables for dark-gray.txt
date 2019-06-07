@@ -10,13 +10,13 @@ $primary-color: #06A763;
 $accent-color: #06A763;
 
 
-$primary-color-light: lighten($primary-color, 7%);
-$primary-color-dark: darken($primary-color, 12%);
+$primary-color-light: lighten($primary-color, 10%);
+$primary-color-dark: darken($primary-color, 15%);
 
 $accent-color-light: lighten($accent-color, 7%);
 $accent-color-dark: darken($accent-color, 12%);
 $body-color: #f5f5f5;
-$body-color-dark: darken($body-color, 10%);
+$body-color-dark: darken($body-color, 20%);
 $white: $body-color;
 
 
@@ -59,7 +59,7 @@ $text-icon-color : $font-color-dark;
 ///*       EXTRA COLORS AND OVERLAY        */
 ///*=======================================*/
 $overlay: rgba(0, 0, 0, .3);
-$port_overlay: rgba(0, 0, 0, .7);
+$port_overlay: rgba(0, 0, 0, .4);
 $port_h2: rgba(72, 76, 97, 0.22);
 $menu-bg : $primary-color;
 $port-p : $white;
