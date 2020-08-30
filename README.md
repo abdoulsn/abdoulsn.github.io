@@ -1,2 +1,2 @@
 # My page
-❇️ [Abdoulaye Diallo](abdoulsn.github.io)
+❇️ [Abdoulaye Diallo](https://abdoulsn.github.io)
