@@ -1,61 +1,152 @@
-/* styles.css */
-body {
+/* Reset and Base Styles */
+* {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
+  background: #f0f4f8;
   color: #333;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
+  max-width: 1100px;
   margin: auto;
-  overflow: hidden;
+  padding: 20px;
 }
 
+/* Header */
 header {
-  background: #333;
+  background: linear-gradient(135deg, #667eea, #764ba2);
   color: #fff;
   padding: 20px 0;
+  text-align: center;
 }
 
-header h1 {
-  margin: 0;
-  padding: 0;
+header .title {
+  font-size: 3rem;
+}
+
+header .subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
 header nav ul {
   list-style: none;
-  padding: 0;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 header nav ul li {
-  display: inline-block;
   margin: 0 15px;
 }
 
 header nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
+header nav ul li a:hover {
+  color: #f0f4f8;
+}
+
+/* Section Styling */
 .section {
-  padding: 40px 0;
-  border-bottom: 1px solid #ddd;
+  padding: 60px 0;
+}
+
+.section:nth-child(even) {
+  background: #fff;
+}
+
+.section:nth-child(odd) {
+  background: #f9f9f9;
 }
 
 .section h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #764ba2;
 }
 
+/* Experience & Education Items */
 .experience-item, .education-item {
+  background: #fff;
+  padding: 20px;
   margin-bottom: 20px;
+  border-left: 5px solid #667eea;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.experience-item:hover, .education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.experience-item h3, .education-item h3 {
+  color: #333;
+}
+
+/* Skills and Certifications Lists */
+#skills ul, #certifications ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Footer */
 footer {
-  background: #333;
+  background: #764ba2;
   color: #fff;
   text-align: center;
   padding: 20px 0;
+}
+
+/* Contact Section */
+#contact a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+/* Container for the inline contact details */
+.contact-details {
+  display: flex;
+  gap: 13em; /* Adjust the space between items as needed */
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+/* Optional: prevent wrapping of each item */
+.contact-details span {
+  white-space: nowrap;
+}
+
+
+#contact a:hover {
+  color: #764ba2;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header .title {
+    font-size: 2.5rem;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
 }
