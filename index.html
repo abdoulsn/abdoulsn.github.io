@@ -42,56 +42,77 @@
   <section id="experiences" class="section">
     <div class="container">
       <h2>Experiences</h2>
-      <div class="experience-item">
-        <h3>ACCENTURE - Data Engineer (09/2024 - Present)</h3>
-        <p><strong>Client:</strong> Allianz Technology France – Team Data Lakehouse</p>
-        <ul>
-          <li>Integrated data with Python and SQL, deployed via GitHub Actions, ArgoCD, and Helm on Azure Storage.</li>
-          <li>Modernized projects including code refactoring and migrating authentication systems.</li>
-          <li>Supervised workflows using Grafana.</li>
-        </ul>
-        <p><strong>Technologies:</strong> Python, SQL, Azure, ArgoCD, Docker, Git, GitHub Actions, Sonarqube</p>
+      <div class="experience-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>ACCENTURE - Data Engineer (09/2024 - Present)</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <p><strong>Client:</strong> Allianz Technology France – Team Data Lakehouse</p>
+          <ul>
+            <li>Integrated data with Python and SQL, deployed via GitHub Actions, ArgoCD, and Helm on Azure Storage.</li>
+            <li>Modernized projects including code refactoring and migrating authentication systems.</li>
+            <li>Supervised workflows using Grafana.</li>
+          </ul>
+          <p><strong>Technologies:</strong> Python, SQL, Azure, ArgoCD, Docker, Git, GitHub Actions, Sonarqube</p>
+        </div>
       </div>
-
-      <div class="experience-item">
-        <h3>ACCENTURE - DevOps & Cloud Engineer (01/2024 - 09/2024)</h3>
-        <p><strong>Client:</strong> Canal+ France – Team Infra & Architecture</p>
-        <ul>
-          <li>Maintained and evolved data infrastructure tools and architecture.</li>
-          <li>Managed Redshift migration tasks and performed DBA operations.</li>
-          <li>Deployed Dataiku platform integrating S3, Snowflake, Athena, and SSO Okta.</li>
-          <li>Collaborated with international teams from Poland and Vietnam.</li>
-        </ul>
-        <p><strong>Technologies:</strong> Terraform, Python, AWS, Git, Jenkins, Airflow, Dataiku, Snowflake</p>
+      <div class="experience-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>ACCENTURE - DevOps & Cloud Engineer (01/2024 - 09/2024)</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <p><strong>Client:</strong> Canal+ France – Team Infra & Architecture</p>
+          <ul>
+            <li>Maintained and evolved data infrastructure tools and architecture.</li>
+            <li>Managed Redshift migration tasks and performed DBA operations.</li>
+            <li>Deployed Dataiku platform integrating S3, Snowflake, Athena, and SSO Okta.</li>
+            <li>Collaborated with international teams from Poland and Vietnam.</li>
+          </ul>
+          <p><strong>Technologies:</strong> Terraform, Python, AWS, Git, Jenkins, Airflow, Dataiku, Snowflake</p>
+        </div>
       </div>
-
-      <div class="experience-item">
-        <h3>ACCENTURE - Data Engineer (10/2021 - 12/2024)</h3>
-        <p><strong>Client:</strong> Canal+ France – Team Data Factory</p>
-        <ul>
-          <li>Managed database migrations and developed data integration pipelines.</li>
-          <li>Converted Teradata DDL to Snowflake using Python and SQL.</li>
-          <li>Supported junior developers on data warehousing best practices.</li>
-        </ul>
-        <p><strong>Technologies:</strong> SQL, Python, Shell, Snowflake, Informatica, AWS, Git, Jenkins, Airflow</p>
+      <div class="experience-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>ACCENTURE - Data Engineer (10/2021 - 12/2024)</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <p><strong>Client:</strong> Canal+ France – Team Data Factory</p>
+          <ul>
+            <li>Managed database migrations and developed data integration pipelines.</li>
+            <li>Converted Teradata DDL to Snowflake using Python and SQL.</li>
+            <li>Supported junior developers on data warehousing best practices.</li>
+          </ul>
+          <p><strong>Technologies:</strong> SQL, Python, Shell, Snowflake, Informatica, AWS, Git, Jenkins, Airflow</p>
+        </div>
       </div>
-
-      <div class="experience-item">
-        <h3>Allianz France – Data Scientist (09/2019 - 09/2021)</h3>
-        <ul>
-          <li>Supported performance and productivity analysis with advanced data analytics and machine learning.</li>
-          <li>Developed web scraping scripts and built data pipelines for analysis.</li>
-          <li>Performed statistical analyses and commercial performance evaluations.</li>
-        </ul>
-        <p><strong>Technologies:</strong> Python, PySpark, MicroStrategy, Jira</p>
+      <div class="experience-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>Allianz France – Data Scientist (09/2019 - 09/2021)</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <ul>
+            <li>Supported performance and productivity analysis with advanced data analytics and machine learning.</li>
+            <li>Developed web scraping scripts and built data pipelines for analysis.</li>
+            <li>Performed statistical analyses and commercial performance evaluations.</li>
+          </ul>
+          <p><strong>Technologies:</strong> Python, PySpark, MicroStrategy, Jira</p>
+        </div>
       </div>
-
-      <div class="experience-item">
-        <h3>Orange Finance Mobile, Dakar – Data Analyst (03/2018 - 08/2018)</h3>
-        <ul>
-          <li>Conducted statistical analysis and predictive modeling for customer portfolio insights.</li>
-          <li>Developed segmentation models and scoring systems.</li>
-        </ul>
+      <div class="experience-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>Orange Finance Mobile, Dakar – Data Analyst (03/2018 - 08/2018)</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <ul>
+            <li>Conducted statistical analysis and predictive modeling for customer portfolio insights.</li>
+            <li>Developed segmentation models and scoring systems.</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
@@ -99,17 +120,32 @@
   <section id="education" class="section">
     <div class="container">
       <h2>Education</h2>
-      <div class="education-item">
-        <h3>École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)</h3>
-        <p>Mastère spécialisé en Data Science pour la connaissance client (2020 - 2021)</p>
+      <div class="education-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <p>Mastère spécialisé en Data Science pour la connaissance client (2020 - 2021)</p>
+        </div>
       </div>
-      <div class="education-item">
-        <h3>Université Paris 8, Île-de-France</h3>
-        <p>Master en Big Data & Data Mining (2018 - 2020)</p>
+      <div class="education-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>Université Paris 8, Île-de-France</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <p>Master en Big Data & Data Mining (2018 - 2020)</p>
+        </div>
       </div>
-      <div class="education-item">
-        <h3>Université de Bambey, Sénégal</h3>
-        <p>Licence en Statistique et Informatique Décisionnelle (2014 - 2017)</p>
+      <div class="education-card" onclick="toggleCard(this)">
+        <div class="card-header">
+          <h3>Université de Bambey, Sénégal</h3>
+          <span class="expand-icon">+</span>
+        </div>
+        <div class="card-content">
+          <p>Licence en Statistique et Informatique Décisionnelle (2014 - 2017)</p>
+        </div>
       </div>
     </div>
   </section>
@@ -129,14 +165,32 @@
   <section id="certifications" class="section">
     <div class="container">
       <h2>Certifications</h2>
-      <ul>
-        <li>AWS Cloud Practitioner - CLF-C01</li>
-        <li>AWS Solution Architect - SAA-CO3</li>
-        <li>AWS Partner Technical Accredited</li>
-        <li>Dataiku Core and Advanced Training</li>
-        <li>Snowflake Data Analytics Training</li>
-        <li>Helm, Docker, Terraform, AWS Data Analytics Training</li>
-      </ul>
+      <div class="certifications-grid">
+        <div class="certification-card">
+          <h3>AWS Cloud Practitioner - CLF-C01</h3>
+          <p>Entry-level certification validating AWS Cloud foundational knowledge.</p>
+        </div>
+        <div class="certification-card">
+          <h3>AWS Solution Architect - SAA-CO3</h3>
+          <p>Certification for designing distributed systems on AWS.</p>
+        </div>
+        <div class="certification-card">
+          <h3>AWS Partner Technical Accredited</h3>
+          <p>Accreditation for AWS partner technical enablement.</p>
+        </div>
+        <div class="certification-card">
+          <h3>Dataiku Core and Advanced Training</h3>
+          <p>Certifications for Dataiku platform proficiency.</p>
+        </div>
+        <div class="certification-card">
+          <h3>Snowflake Data Analytics Training</h3>
+          <p>Training in Snowflake data analytics solutions.</p>
+        </div>
+        <div class="certification-card">
+          <h3>Helm, Docker, Terraform, AWS Data Analytics Training</h3>
+          <p>Trainings in DevOps and cloud data analytics tools.</p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -170,5 +224,10 @@
       <p>© 2025 Abdoulaye DIALLO. All rights reserved.</p>
     </div>
   </footer>
+  <script>
+    function toggleCard(card) {
+      card.classList.toggle('expanded');
+    }
+  </script>
 </body>
 </html>

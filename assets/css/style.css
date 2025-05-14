@@ -103,6 +103,48 @@ header nav ul li a:hover {
   padding-left: 20px;
 }
 
+/* Card Styles for Experience, Education, Certification */
+.experience-card, .education-card, .certification-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+  margin-bottom: 24px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+.experience-card:hover, .education-card:hover, .certification-card:hover {
+  box-shadow: 0 6px 18px rgba(102, 126, 234, 0.25);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  background: linear-gradient(90deg, #667eea 60%, #764ba2 100%);
+  color: #fff;
+}
+.expand-icon {
+  font-size: 1.5em;
+  transition: transform 0.3s;
+}
+.card-content {
+  display: none;
+  padding: 18px 24px;
+  color: #333;
+  background: #f9f9f9;
+}
+.experience-card.expanded .card-content,
+.education-card.expanded .card-content,
+.certification-card.expanded .card-content {
+  display: block;
+}
+.experience-card.expanded .expand-icon,
+.education-card.expanded .expand-icon,
+.certification-card.expanded .expand-icon {
+  transform: rotate(45deg);
+}
+
 /* Footer */
 footer {
   background: #764ba2;
