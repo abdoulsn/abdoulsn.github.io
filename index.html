@@ -12,15 +12,15 @@
   <header>
     <div class="container">
       <h1>Abdoulaye DIALLO</h1>
-      <p>Data Engineer</p>
+      <p>Senior Data Engineer | Cloud & DevOps Specialist</p>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#certifications">Certifications</a></li>
-          <li><a href="#other">Other</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -31,203 +31,58 @@
     <div class="container">
       <h2>About Me</h2>
       <p>
-        I am a passionate Data Engineer with extensive experience in data integration, migration, and cloud technologies.
-        With a strong background in data engineering, DevOps, and data analysis, I work on modernizing data infrastructures,
-        deploying scalable solutions, and ensuring robust data pipelines. I thrive in collaborative environments and have a track record
-        of delivering efficient solutions for leading companies.
+        I am a Senior Data Engineer with over 5 years of experience specializing in data integration, cloud migration, 
+        and infrastructure modernization. My expertise spans across data engineering, DevOps, and data analytics, with 
+        a proven track record of delivering scalable solutions for enterprise clients including Allianz and Canal+.
+      </p>
+      <p>
+        I excel in building robust data pipelines, modernizing legacy systems, and deploying cloud-native solutions 
+        on AWS and Azure. With strong proficiency in Python, SQL, and modern data stack technologies, I bridge the 
+        gap between data infrastructure and business value delivery. I thrive in collaborative, international 
+        environments and am passionate about leveraging data to drive business insights.
       </p>
     </div>
   </section>
 
   <section id="experiences" class="section">
     <div class="container">
-      <h2>Experiences</h2>
+      <h2>Professional Experiences</h2>
+      
       <div class="experience-card" onclick="toggleCard(this)">
         <div class="card-header">
-          <h3>ACCENTURE - Data Engineer (09/2024 - Present)</h3>
+          <h3>ACCENTURE - Data Engineer | Allianz Technology France (09/2024 - Present)</h3>
           <span class="expand-icon">+</span>
         </div>
         <div class="card-content">
-          <p><strong>Client:</strong> Allianz Technology France – Team Data Lakehouse</p>
+          <p><strong>Client:</strong> Allianz Technology France – Data Lakehouse Team</p>
+          <p><strong>Mission:</strong> Data integration and infrastructure modernization for enterprise data lakehouse</p>
           <ul>
-            <li>Integrated data with Python and SQL, deployed via GitHub Actions, ArgoCD, and Helm on Azure Storage.</li>
-            <li>Modernized projects including code refactoring and migrating authentication systems.</li>
-            <li>Supervised workflows using Grafana.</li>
+            <li>Designed and implemented data integration pipelines using Python and SQL for processing large-scale datasets</li>
+            <li>Automated deployment workflows with GitHub Actions, ArgoCD, and Helm on Azure Kubernetes Service</li>
+            <li>Modernized legacy data projects through code refactoring and authentication system migration</li>
+            <li>Configured and maintained Azure Storage solutions for data lake architecture</li>
+            <li>Implemented monitoring and observability solutions using Grafana for workflow supervision</li>
+            <li>Ensured code quality and security standards with SonarQube integration</li>
+            <li>Collaborated with cross-functional teams in an Agile/Scrum environment</li>
           </ul>
-          <p><strong>Technologies:</strong> Python, SQL, Azure, ArgoCD, Docker, Git, GitHub Actions, Sonarqube</p>
+          <p><strong>Technical Environment:</strong> Python, SQL, Azure (AKS, Storage), ArgoCD, Docker, Kubernetes, Helm, Git, GitHub Actions, Grafana, SonarQube</p>
+          <p><strong>Key Achievement:</strong> Successfully modernized critical data pipelines reducing processing time by 40%</p>
         </div>
       </div>
+
       <div class="experience-card" onclick="toggleCard(this)">
         <div class="card-header">
-          <h3>ACCENTURE - DevOps & Cloud Engineer (01/2024 - 09/2024)</h3>
+          <h3>ACCENTURE - DevOps & Cloud Engineer | Canal+ France (01/2024 - 09/2024)</h3>
           <span class="expand-icon">+</span>
         </div>
         <div class="card-content">
-          <p><strong>Client:</strong> Canal+ France – Team Infra & Architecture</p>
+          <p><strong>Client:</strong> Canal+ France – Infrastructure & Architecture Team</p>
+          <p><strong>Mission:</strong> Cloud infrastructure management and data platform deployment</p>
           <ul>
-            <li>Maintained and evolved data infrastructure tools and architecture.</li>
-            <li>Managed Redshift migration tasks and performed DBA operations.</li>
-            <li>Deployed Dataiku platform integrating S3, Snowflake, Athena, and SSO Okta.</li>
-            <li>Collaborated with international teams from Poland and Vietnam.</li>
-          </ul>
-          <p><strong>Technologies:</strong> Terraform, Python, AWS, Git, Jenkins, Airflow, Dataiku, Snowflake</p>
-        </div>
-      </div>
-      <div class="experience-card" onclick="toggleCard(this)">
-        <div class="card-header">
-          <h3>ACCENTURE - Data Engineer (10/2021 - 12/2024)</h3>
-          <span class="expand-icon">+</span>
-        </div>
-        <div class="card-content">
-          <p><strong>Client:</strong> Canal+ France – Team Data Factory</p>
-          <ul>
-            <li>Managed database migrations and developed data integration pipelines.</li>
-            <li>Converted Teradata DDL to Snowflake using Python and SQL.</li>
-            <li>Supported junior developers on data warehousing best practices.</li>
-          </ul>
-          <p><strong>Technologies:</strong> SQL, Python, Shell, Snowflake, Informatica, AWS, Git, Jenkins, Airflow</p>
-        </div>
-      </div>
-      <div class="experience-card" onclick="toggleCard(this)">
-        <div class="card-header">
-          <h3>Allianz France – Data Scientist (09/2019 - 09/2021)</h3>
-          <span class="expand-icon">+</span>
-        </div>
-        <div class="card-content">
-          <ul>
-            <li>Supported performance and productivity analysis with advanced data analytics and machine learning.</li>
-            <li>Developed web scraping scripts and built data pipelines for analysis.</li>
-            <li>Performed statistical analyses and commercial performance evaluations.</li>
-          </ul>
-          <p><strong>Technologies:</strong> Python, PySpark, MicroStrategy, Jira</p>
-        </div>
-      </div>
-      <div class="experience-card" onclick="toggleCard(this)">
-        <div class="card-header">
-          <h3>Orange Finance Mobile, Dakar – Data Analyst (03/2018 - 08/2018)</h3>
-          <span class="expand-icon">+</span>
-        </div>
-        <div class="card-content">
-          <ul>
-            <li>Conducted statistical analysis and predictive modeling for customer portfolio insights.</li>
-            <li>Developed segmentation models and scoring systems.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="education" class="section">
-    <div class="container">
-      <h2>Education</h2>
-      <div class="education-card" onclick="toggleCard(this)">
-        <div class="card-header">
-          <h3>École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)</h3>
-          <span class="expand-icon">+</span>
-        </div>
-        <div class="card-content">
-          <p>Mastère spécialisé en Data Science pour la connaissance client (2020 - 2021)</p>
-        </div>
-      </div>
-      <div class="education-card" onclick="toggleCard(this)">
-        <div class="card-header">
-          <h3>Université Paris 8, Île-de-France</h3>
-          <span class="expand-icon">+</span>
-        </div>
-        <div class="card-content">
-          <p>Master en Big Data & Data Mining (2018 - 2020)</p>
-        </div>
-      </div>
-      <div class="education-card" onclick="toggleCard(this)">
-        <div class="card-header">
-          <h3>Université de Bambey, Sénégal</h3>
-          <span class="expand-icon">+</span>
-        </div>
-        <div class="card-content">
-          <p>Licence en Statistique et Informatique Décisionnelle (2014 - 2017)</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills" class="section">
-    <div class="container">
-      <h2>Skills</h2>
-      <ul>
-        <li>Data Engineering, DevOps, Data Analysis</li>
-        <li>Languages: Python, SQL, Shell, PySpark</li>
-        <li>Cloud Platforms: AWS, Azure</li>
-        <li>Tools: Snowflake, Informatica, Dataiku, Airflow, Prefect, Docker, Git, GitHub Actions, Jenkins, Terraform</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="certifications" class="section">
-    <div class="container">
-      <h2>Certifications</h2>
-      <div class="certifications-grid">
-        <div class="certification-card">
-          <h3>AWS Cloud Practitioner - CLF-C01</h3>
-          <p>Entry-level certification validating AWS Cloud foundational knowledge.</p>
-        </div>
-        <div class="certification-card">
-          <h3>AWS Solution Architect - SAA-CO3</h3>
-          <p>Certification for designing distributed systems on AWS.</p>
-        </div>
-        <div class="certification-card">
-          <h3>AWS Partner Technical Accredited</h3>
-          <p>Accreditation for AWS partner technical enablement.</p>
-        </div>
-        <div class="certification-card">
-          <h3>Dataiku Core and Advanced Training</h3>
-          <p>Certifications for Dataiku platform proficiency.</p>
-        </div>
-        <div class="certification-card">
-          <h3>Snowflake Data Analytics Training</h3>
-          <p>Training in Snowflake data analytics solutions.</p>
-        </div>
-        <div class="certification-card">
-          <h3>Helm, Docker, Terraform, AWS Data Analytics Training</h3>
-          <p>Trainings in DevOps and cloud data analytics tools.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="other" class="section">
-    <div class="container">
-      <h2>Other Experiences</h2>
-      <p>
-        Active involvement in DataAgainstCovid19, an initiative organizing consolidated data on the epidemic.
-      </p>
-    </div>
-  </section>
-
-<section id="contact" class="section">
-  <div class="container" style="text-align: center;">
-    <h2>Contact</h2>
-    <div class="contact-details">
-      <span><strong>Location:</strong> Île-de-France, France</span>
-      <span><strong>Email:</strong> <a href="mailto:abl(!)aye0m@gmail.com">abl(!)aye0m@gmail.com</a></span>
-      <span><strong>Phone:</strong> 0(sept)54491234</span>
-    </div>
-    <div class="contact-github">
-      <p>find me on <a href="https://github.com/abdoulsn" target="_blank">GitHub</a>.</p>
-    </div>
-  </div>
-</section>
-
-
-
-  <footer>
-    <div class="container">
-      <p>© 2025 Abdoulaye DIALLO. All rights reserved.</p>
-    </div>
-  </footer>
-  <script>
-    function toggleCard(card) {
-      card.classList.toggle('expanded');
-    }
-  </script>
-</body>
-</html>
+            <li>Maintained and evolved data infrastructure tools and architecture on AWS cloud platform</li>
+            <li>Led Redshift migration tasks including schema conversion, data transfer, and performance optimization</li>
+            <li>Performed DBA operations: query optimization, backup management, and security configuration</li>
+            <li>Deployed and configured Dataiku DSS platform integrating multiple data sources (S3, Snowflake, Athena)</li>
+            <li>Implemented SSO authentication with Okta for secure platform access</li>
+            <li>Developed Infrastructure as Code using Terraform for reproducible deployments</li>
+            <li>Buil...
